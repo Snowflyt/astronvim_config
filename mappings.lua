@@ -39,7 +39,15 @@ return {
     gh = {
       vim.lsp.buf.hover,
       desc = "Show hover",
-    }
+    },
+    ["<C-.>"] = {
+      vim.lsp.buf.code_action,
+      desc = "LSP code actions",
+    },
+    ["<D-.>"] = {
+      vim.lsp.buf.code_action,
+      desc = "LSP code actions",
+    },
   },
 
   i = {
