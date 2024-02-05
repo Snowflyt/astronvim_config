@@ -1,3 +1,3 @@
-# Snowflyt’s Personal AstroNvim Configuration
+# Snowflyt’s AstroNvim Configuration
 
 For personal use.
