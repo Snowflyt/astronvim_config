@@ -34,6 +34,12 @@ return {
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" },
     ["<D-s>"] = { ":w!<cr>", desc = "Save File" },
+
+    -- LSP
+    gh = {
+      vim.lsp.buf.hover,
+      desc = "Show hover",
+    }
   },
 
   i = {
